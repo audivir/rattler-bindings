@@ -411,7 +411,7 @@ def optimized_rattler_build(  # noqa: PLR0913
     test: bool | Literal["native"] = True,
     skip_existing: bool | Literal["all"] = True,
     noarch_build_platform: PLATFORM | None = None,
-) -> tuple[Path | None, list[dict[str, int]], int]:
+) -> tuple[Path | None, list[dict[str, Any]], int]:
     """Build a package from a recipe with optimized arguments.
 
     Look at `rattler_build` for full documentation.
