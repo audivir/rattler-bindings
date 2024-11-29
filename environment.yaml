@@ -1,0 +1,7 @@
+name: rattler-bindings
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - conda-index
