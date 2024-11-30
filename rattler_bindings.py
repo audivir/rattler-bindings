@@ -375,7 +375,7 @@ def rattler_build(  # noqa: C901, PLR0913
     )
     args.extend(("--package-format", fmt))
 
-    logger.info("rattler-build: %s", " ".join(str(x) for x in args))
+    logger.debug("rattler-build: %s", " ".join(str(x) for x in args))
 
     # custom strings (e.g. extra-meta are quoted)
     # else is either boolean of Paths/ints/Literals (but not enforced!)
