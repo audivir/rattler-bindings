@@ -1,0 +1,5 @@
+{"timestamp":"2024-07-15T12:00:00.000000Z","level":"INFO","fields":{"message":"found 1 variants"},"target":"rattler_build"}
+{"timestamp":"2024-07-15T12:00:00.100000Z","level":"INFO","fields":{"message":"Build variant: python=3.11"},"target":"rattler_build"}
+{"timestamp":"2024-07-15T12:00:01.000000Z","level":"INFO","fields":{"message":"Copying source from url: /home/user/.cache/rattler-build/src_cache/my-package-1.2.3.tar.gz to work directory"},"target":"rattler_build::source"}
+{"timestamp":"2024-07-15T12:00:05.000000Z","level":"INFO","fields":{"message":"Running build script"},"target":"rattler_build::build"}
+{"timestamp":"2024-07-15T12:00:42.000000Z","level":"INFO","fields":{"message":"Build and test complete"},"target":"rattler_build"}

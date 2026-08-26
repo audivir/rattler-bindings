@@ -1,0 +1,18 @@
+context:
+  version: "1.2.3"
+package:
+  name: my-package
+  version: ${{ version }}
+source:
+  url: https://example.com/my-package-${{ version }}.tar.gz
+  sha256: "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+build:
+  number: 0
+requirements:
+  host:
+    - python
+  run:
+    - python
+about:
+  summary: A sample package used as a fixture in the rattler-bindings test suite.
+  license: MIT
